@@ -10,3 +10,4 @@ alias gca="git commit --amend"
 alias e="exit"
 alias c="clear"
 alias v="vim"
+
