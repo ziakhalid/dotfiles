@@ -29,6 +29,7 @@ alias editTempAliases="vim $dotfilesShellPath/TempAliases.sh"
 alias editImportantCommands="vim $notesLearningPath/ImportantCommands"
 alias editSprintTask="vim $notesOfficePath/SprintTask"
 alias editSprintTaskNotes="vim $notesOfficePath/SprintTaskNotes"
+alias editRoughNotes="vim $notesPath/RoughNotes"
 
 #Show files
 alias showTodo="cat $notesPath/ToDo"
