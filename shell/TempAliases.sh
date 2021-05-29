@@ -11,6 +11,8 @@ dotfilesShellPath="$dotfilesPath/shell"
 dotfilesShellScriptPath="$dotfilesPath/shell/script"
 productivityScriptPath="~/Documents/Root/GIT_REPO/ProductivityScripts"
 productivityScriptShellPath="$productivityScriptPath/Shell"
+baseUrlHllJira="https://lalamove.atlassian.net/browse/"
+baseUrlHllGitlabDappCommit="https://gitlab.huolala.cn/group-driver/driver/dapp-android-component/commit/"
 
 #Move to Directory
 alias mthll="cd $hllPath"
@@ -35,4 +37,29 @@ alias editRoughNotes="vim $notesPath/RoughNotes"
 alias showTodo="cat $notesPath/ToDo"
 alias showSprintTaskNotes="cat $notesOfficePath/SprintTaskNotes"
 alias showImportantCommands="cat $notesLearningPath/ImportantCommands"
+
+#functions
+openJira(){
+     if [[ "${1}" == "" ]]; then
+	echo "Error: parameter cannot be empty"
+     else
+	open "${baseUrlHllJira}${1}"
+	echo "OPening -> ${baseUrlHllGitlabDappCommit}${1}"
+     fi
+}
+
+openGitCommit(){
+     if [[ "${1}" == "" ]]; then
+	echo "Error: parameter cannot be empty"
+     else
+	open "${baseUrlHllGitlabDappCommit}${1}"
+	echo "Opening -> ${baseUrlHllGitlabDappCommit}${1}"
+     fi
+}
+
+
+
+
+
+
 
