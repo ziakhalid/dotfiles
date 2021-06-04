@@ -32,12 +32,13 @@ nmap Q gqap
 " These create newlines like o and O but stay in normal mode
 nmap zj o<Esc>k
 nmap zk O<Esc>j
-ndings for quickly moving between windows
+
+" quickly moving between windows
 " h left, l right, k up, j down
-" nmap <leader>h <c-w>h
-" nmap <leader>l <c-w>l
-" nmap <leader>k <c-w>k
-" nmap <leader>j <c-w>j
+map <c-f>h <c-w>h
+map <c-f>l <c-w>l
+map <c-f>k <c-w>k
+map <c-f>j <c-w>j
 
 " Closing tabs
 nmap <leader>q :action CloseContent<cr>
@@ -50,7 +51,7 @@ nmap <leader>j :action PrevSplitter<cr>
 
 " Splits manipulation
 nmap <leader>ws :action SplitHorizontally<cr>
-nmap <leader>wv :action SplitVertically<cr>
+nmap <c-f>% :action SplitVertically<cr>
 nmap <leader>wc :action Unsplit<cr>
 nmap <leader>wC :action UnsplitAll<cr>
 nmap <leader>wd :action OpenEditorInOppositeTabGroup<cr>
@@ -96,9 +97,11 @@ nmap <leader>rc :action InspectCode<cr>
 nmap <a-j> 15gj
 nmap <a-k> 15gk
 
-" Won't work in visual mode (with vmap) for some reason.
-" Use default map of <c-/> for that.
-nmap gcc :action CommentByLineComment<cr>
+" Commenting
+nmap <Leader>cc :action CommentByLineComment<CR>
+vmap <Leader>bb :action CommentByBlockComment<CR>
+"nmap <Leader>c<Space> :action CommentByLineComment<CR>
+"nmap <Leader>cb<Space> :action CommentByBlockComment<CR>
 
 " unimpaired mappings - from https://github.com/saaguero/ideavimrc/blob/master/.ideavimrc
 nnoremap [<space> O<esc>j

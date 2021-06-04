@@ -13,6 +13,7 @@ productivityScriptPath="~/Documents/Root/GIT_REPO/ProductivityScripts"
 productivityScriptShellPath="$productivityScriptPath/Shell"
 baseUrlHllJira="https://lalamove.atlassian.net/browse/"
 baseUrlHllGitlabDappCommit="https://gitlab.huolala.cn/group-driver/driver/dapp-android-component/commit/"
+logFilesPath="/Users/zia.khalid/Documents/Root/GIT_REPO/Logs"
 
 #Move to Directory
 alias mthll="cd $hllPath"
@@ -22,6 +23,7 @@ alias mtDotfilesShell="cd $dotfilesShellPath"
 alias mtDotfilesShellScript="cd $dotfilesShellScriptPath"
 alias mtProductivityScript="cd $productivityScriptPath"
 alias mtProductivityScriptShell="cd $productivityScriptShellPath"
+alias mtLogs="cd $logFilesPath"
 
 #Edit files
 alias editStandup="vim $notesOfficePath/StandUp"
