@@ -39,6 +39,8 @@ alias editSprintTask="vim $notesOfficePath/SprintTask"
 alias editSprintTaskNotes="vim $notesOfficePath/SprintTaskNotes"
 alias editRoughNotes="vim $notesPath/RoughNotes"
 alias editSwitch="vim $switchPath/Switch"
+alias editLogFile="vim $logFilesPath/log"
+
 
 #Show files
 alias showTodo="cat $notesPath/ToDo"

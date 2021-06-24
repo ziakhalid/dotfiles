@@ -21,7 +21,7 @@ set scrolloff=3
 "Copy to system clipboard as well
 set clipboard+=unnamed
 
-let mapleader = ","
+let mapleader = "\"
 " let mapleader = " "
 " let maplocalleader = ","
 
@@ -117,8 +117,8 @@ nnoremap [b :action PreviousTab<cr>
 nnoremap ]b :action NextTab<cr>
 
 " Search
-nmap <leader>/ :action Find<cr>
-nmap <leader>\ :action FindInPath<cr>
+" nmap <leader>/ :action Find<cr>
+" nmap <leader>\ :action FindInPath<cr>
 
 " Moving lines
 nmap [e :action MoveLineUp<cr>
@@ -128,11 +128,31 @@ nmap [s :action MoveStatementUp<cr>
 nmap ]s :action MoveStatementDown<cr>
 
 " Building, Running and Debugging
-nmap \c :action CompileDirty<cr>
-nmap \r :action Run<cr>
-nmap \R :action RunAnything<cr>
-nmap \b :action Debug<cr>
-nmap \c :action RunClass<cr>
-nmap \d :action DebugClass<cr>
-nmap \t :action RerunTests<cr>                                         
-nmap \T :action RerunFailedTests<cr>
+nmap ]]c :action CompileDirty<cr>
+nmap ]]r :action Run<cr>
+nmap ]]R :action RunAnything<cr>
+nmap ]]b :action Debug<cr>
+nmap ]]c :action RunClass<cr>
+nmap ]]d :action DebugClass<cr>
+nmap ]]t :action RerunTests<cr>                                         
+nmap ]]T :action RerunFailedTests<cr>
+
+" Plugins ....................................
+
+" NERDTree
+set NERDTree	
+
+nmap <C-n>f :NERDTreeFocus<CR>
+nmap <C-n>c :NERDTreeClose<CR>
+nmap <C-n>n :NERDTree<CR>
+nmap <C-n>t :NERDTreeToggle<CR>
+nmap <C-n>fi :NERDTreeFind<CR>
+
+" EasyMotion
+set easymotion
+
+
+
+
+
+

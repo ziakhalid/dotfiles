@@ -99,3 +99,13 @@ let &t_EI.="\e[1 q" "EI = NORMAL mode (ELSE)
 "  4 -> solid underscore
 "  5 -> blinking vertical bar
 "  6 -> solid vertical bar
+
+
+"NERDTree
+nnoremap <C-n>f :NERDTreeFocus<CR>
+nnoremap <C-n>n :NERDTree<CR>
+nnoremap <C-n>t :NERDTreeToggle<CR>
+nnoremap <C-n>fi :NERDTreeFind<CR>
+
+
+
