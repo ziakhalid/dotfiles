@@ -28,6 +28,7 @@ alias mtProductivityScriptShell="cd $productivityScriptShellPath"
 alias mtLogs="cd $logFilesPath"
 alias mtSwitch="cd $switchPath"
 alias mtOD="cd $notesOfficePath/Demo"
+alias mtSPA="cd /Users/zia.khalid/Documents/Root/GIT_REPO/TEST/SelfPracticeAndroid"
 
 #Edit files
 alias editStandup="vim $notesOfficePath/StandUp"
@@ -39,7 +40,7 @@ alias editSprintTask="vim $notesOfficePath/SprintTask"
 alias editSprintTaskNotes="vim $notesOfficePath/SprintTaskNotes"
 alias editRoughNotes="vim $notesPath/RoughNotes"
 alias editSwitch="vim $switchPath/Switch"
-alias editLogFile="vim $logFilesPath/log"
+alias editLogFile="vim $logFilesPath"
 
 
 #Show files

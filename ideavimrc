@@ -151,7 +151,8 @@ nmap <C-n>fi :NERDTreeFind<CR>
 " EasyMotion
 set easymotion
 
-
+" vim-surround
+set surround
 
 
 
