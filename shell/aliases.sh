@@ -1,8 +1,8 @@
 # Git related
-alias gs="git status"
-alias gpp="git pull --prune"
-alias gpo="git push origin"
-alias gaa="git add --all"
+#alias gs="git status"
+#alias gpp="git pull --prune"
+#alias gpo="git push origin"
+#alias gaa="git add --all"
 
 # Shell Commands
 alias e="exit"

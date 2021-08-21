@@ -14,6 +14,7 @@ productivityScriptShellPath="$productivityScriptPath/Shell"
 baseUrlHllJira="https://lalamove.atlassian.net/browse/"
 baseUrlHllGitlabDappCommit="https://gitlab.huolala.cn/group-driver/driver/dapp-android-component/commit/"
 logFilesPath="/Users/zia.khalid/Documents/Root/GIT_REPO/Logs"
+logPath="/Users/zia.khalid/Documents/Root/GIT_REPO/Logs/log"
 encryPassphrasePath="/Users/zia.khalid/.passphrase/id_rsa_encry"
 switchPath="$notesPath/Switch"
 
@@ -34,6 +35,7 @@ alias mtSPA="cd /Users/zia.khalid/Documents/Root/GIT_REPO/TEST/SelfPracticeAndro
 alias editStandup="vim $notesOfficePath/StandUp"
 alias editTestingllm="vim $notesOfficePath/TestingLalamove"
 alias editTodo="vim $notesPath/ToDo" 
+alias editHabit="vim $notesPath/Habit" 
 alias editTempAliases="vim $dotfilesShellPath/TempAliases.sh"
 alias editImportantCommands="vim $notesLearningPath/ImportantCommands"
 alias editSprintTask="vim $notesOfficePath/SprintTask"
@@ -41,10 +43,12 @@ alias editSprintTaskNotes="vim $notesOfficePath/SprintTaskNotes"
 alias editRoughNotes="vim $notesPath/RoughNotes"
 alias editSwitch="vim $switchPath/Switch"
 alias editLogFile="vim $logFilesPath"
+alias editImportantLinks="vim $notesOfficePath/ImportantLinks"
 
 
 #Show files
 alias showTodo="cat $notesPath/ToDo"
+alias showHabit="cat $notesPath/Habit"
 alias showSprintTaskNotes="cat $notesOfficePath/SprintTaskNotes"
 alias showImportantCommands="cat $notesLearningPath/ImportantCommands"
 alias showSwitch="cat $notesLearningPath/switch"
