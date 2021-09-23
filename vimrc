@@ -9,6 +9,9 @@
 " is present. But we're including it here just in case this config file is
 " loaded some other way (e.g. saved as `foo`, and then Vim started with
 " `vim -u foo`).
+colorscheme gruvbox
+set background=dark
+
 set nocompatible
 
 " Turn on syntax highlighting.
@@ -110,6 +113,5 @@ nnoremap <C-n>f :NERDTreeFocus<CR>
 nnoremap <C-n>n :NERDTree<CR>
 nnoremap <C-n>t :NERDTreeToggle<CR>
 nnoremap <C-n>fi :NERDTreeFind<CR>
-
 
 

@@ -4,6 +4,14 @@
 #alias gpo="git push origin"
 #alias gaa="git add --all"
 
+# Spotify temp alias
+alias pspy="spotify pause"
+alias plspy="spotify play"
+alias nxtspy="spotify next"
+alias prvspy="spotify prev"
+alias volup="spotify vol up"
+alias voldown="spotify vol down"
+
 # Shell Commands
 alias e="exit"
 alias c="clear"

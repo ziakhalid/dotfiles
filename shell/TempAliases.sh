@@ -1,6 +1,6 @@
 #Path
 hllPath="~/Documents/Root/GIT_REPO/LALAMOVE/LLMGlobalDriver/dapp-android-component"
-notesPath="~/Documents/Root/GIT_REPO/MyNotes"
+notesPath="/Users/ziakhalid/Documents/Root/Git_Repo/PersonalProject/my-notes"
 notesLearningPath="$notesPath/Learning"
 notesOfficePath="$notesPath/Office"
 notesOtherPath="$notesPath/Other"
@@ -17,6 +17,7 @@ logFilesPath="/Users/zia.khalid/Documents/Root/GIT_REPO/Logs"
 logPath="/Users/zia.khalid/Documents/Root/GIT_REPO/Logs/log"
 encryPassphrasePath="/Users/zia.khalid/.passphrase/id_rsa_encry"
 switchPath="$notesPath/Switch"
+junkPath="/Users/ziakhalid/Documents/Root/Junk"
 
 #Move to Directory
 alias mthll="cd $hllPath"
@@ -30,6 +31,7 @@ alias mtLogs="cd $logFilesPath"
 alias mtSwitch="cd $switchPath"
 alias mtOD="cd $notesOfficePath/Demo"
 alias mtSPA="cd /Users/zia.khalid/Documents/Root/GIT_REPO/TEST/SelfPracticeAndroid"
+alias mtJunk="cd $junkPath" 
 
 #Edit files
 alias editStandup="vim $notesOfficePath/StandUp"
