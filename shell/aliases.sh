@@ -17,10 +17,13 @@ alias e="exit"
 alias c="clear"
 alias v="vim"
 alias g="git"
+alias gw="./gradlew"
+alias grh="git rebase -i @~4"
 
 #Aliases to protect against overwriting
 alias cp='cp -i'
 alias mv='mv -i'
+alias rm='rm -i'
 
 #Java version export
 alias j11="export JAVA_HOME=`/usr/libexec/java_home -v 11`; java -version"

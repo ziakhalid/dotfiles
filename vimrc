@@ -89,6 +89,29 @@ inoremap <Right> <ESC>:echoe "Use l"<CR>
 inoremap <Up>    <ESC>:echoe "Use k"<CR>
 inoremap <Down>  <ESC>:echoe "Use j"<CR>
 
+" Adding unicode character
+"➞
+inoremap ]]a <c-v>u279e   
+"➤
+inoremap ]]a2 <c-v>u27a4   
+"✅
+inoremap ]]t <c-v>u2705
+"❎
+inoremap ]]c <c-v>u274e
+"░
+inoremap ]]p <c-v>u2591
+"▣
+inoremap ]]b <c-v>u25a3
+"•
+inoremap ]]cb <c-v>u2022
+"∙
+inoremap ]]cs <c-v>u2219
+"⁃
+inoremap ]]h <c-v>u2043
+"▪
+inoremap ]]s <c-v>u25aa
+
+
 " These create newlines like o and O but stay in normal mode
 nnoremap zj o<Esc>k
 nnoremap zk O<Esc>j

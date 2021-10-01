@@ -55,6 +55,21 @@ alias showSprintTaskNotes="cat $notesOfficePath/SprintTaskNotes"
 alias showImportantCommands="cat $notesLearningPath/ImportantCommands"
 alias showSwitch="cat $notesLearningPath/switch"
 
+
+#Zoom
+alias openZoomStandup="open 'zoommtg://zoom.us/join?confno=8107952883'"
+alias openZoomDailyQA="open 'zoommtg://zoom.us/join?confno=4829960854'"
+alias openZoomMike="open 'zoommtg://zoom.us/join?confno=mike.woodruff'"
+
+# Open Zoom for meeting ID
+openZoom(){
+    open "zoommtg://zoom.us/join?confno=${1}"
+}
+
+# App login
+alias demoUser='adb shell input text "demo"'
+alias demoPass='adb shell input text "welcome1"'
+
 #functions
 openJira(){
      if [[ "${1}" == "" ]]; then

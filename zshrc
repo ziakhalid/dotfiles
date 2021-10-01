@@ -6,7 +6,7 @@ source ~/dotfiles/shell/functions.sh
 source ~/dotfiles/shell/aliases.sh
 
 # Temp Aliases
-source ~/dotfiles/shell/TempAliases.sh
+source ~/dotfiles/shell/temp_aliases.sh
 
 # Bash profile
 source ~/dotfiles/bash_profile
