@@ -23,13 +23,17 @@ set shortmess+=I
 " Show line numbers.
 set number
 
+" We do not want to use octal format eg 007 <C-a> = 010 
+set nrformats-=octal
+
+
 " This enables relative line numbering mode. With both number and
 " relativenumber enabled, the current line shows the true line number, while
 " all other lines (above and below) are numbered relative to the current line.
 " This is useful because you can tell, at a glance, what count is needed to
 " jump up or down to a particular line, by {count}k to go up or {count}j to go
 " down.
-set relativenumber
+"set relativenumber
 
 " Always show the status line at the bottom, even if you only have one window open.
 set laststatus=2
@@ -72,6 +76,18 @@ set clipboard+=unnamed
 " Disable swap file permanently
 set noswapfile
 
+"show existing tab with 2 spaces width
+set tabstop=4
+
+" when indenting with '>', use 2 spaces width
+set shiftwidth=2
+
+" highlight search words in vim
+set hlsearch
+
+" enter space inted of tab character
+set expandtab
+
 
 " Try to prevent bad habits like using the arrow keys for movement. This is
 " not the only possible bad habit. For example, holding down the h/j/k/l keys
@@ -95,21 +111,30 @@ inoremap ]]a <c-v>u279e
 "➤
 inoremap ]]a2 <c-v>u27a4   
 "✅
-inoremap ]]t <c-v>u2705
+inoremap ]]st <c-v>u2705
 "❎
-inoremap ]]c <c-v>u274e
+inoremap ]]sc <c-v>u274e
 "░
 inoremap ]]p <c-v>u2591
-"▣
-inoremap ]]b <c-v>u25a3
+
+
+"Bullets
 "•
-inoremap ]]cb <c-v>u2022
-"∙
-inoremap ]]cs <c-v>u2219
+inoremap ]]b <c-v>u2022
+"◦
+inoremap ]]wb <c-v>u25e6
+"⦿
+inoremap ]]cb <c-v>u29bf
 "⁃
-inoremap ]]h <c-v>u2043
+inoremap ]]hb <c-v>u2043
 "▪
-inoremap ]]s <c-v>u25aa
+inoremap ]]sb <c-v>u25aa
+"▣
+inoremap ]]wsb <c-v>u25a3
+"‣
+inoremap ]]tb <c-v>u2023
+"❯
+inoremap ]]ab <c-v>u276f
 
 
 " These create newlines like o and O but stay in normal mode

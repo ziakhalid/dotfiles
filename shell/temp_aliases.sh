@@ -38,7 +38,7 @@ alias editStandup="vim $notesOfficePath/StandUp"
 alias editTestingllm="vim $notesOfficePath/TestingLalamove"
 alias editTodo="vim $notesPath/ToDo" 
 alias editHabit="vim $notesPath/Habit" 
-alias editTempAliases="vim $dotfilesShellPath/TempAliases.sh"
+alias editTempAliases="vim $dotfilesShellPath/temp_aliases.sh"
 alias editImportantCommands="vim $notesLearningPath/ImportantCommands"
 alias editSprintTask="vim $notesOfficePath/SprintTask"
 alias editSprintTaskNotes="vim $notesOfficePath/SprintTaskNotes"
@@ -54,6 +54,7 @@ alias showHabit="cat $notesPath/Habit"
 alias showSprintTaskNotes="cat $notesOfficePath/SprintTaskNotes"
 alias showImportantCommands="cat $notesLearningPath/ImportantCommands"
 alias showSwitch="cat $notesLearningPath/switch"
+alias showRoughNotes="cat $notesPath/RoughNotes"
 
 
 #Zoom
