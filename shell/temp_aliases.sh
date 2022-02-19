@@ -18,6 +18,7 @@ logPath="/Users/zia.khalid/Documents/Root/GIT_REPO/Logs/log"
 encryPassphrasePath="/Users/zia.khalid/.passphrase/id_rsa_encry"
 switchPath="$notesPath/Switch"
 junkPath="/Users/ziakhalid/Documents/Root/Junk"
+androidPlaygrondPath="/Users/ziakhalid/Documents/Root/Git_Repo/PersonalProject/android_payground"
 
 #Move to Directory
 alias mthll="cd $hllPath"
@@ -32,6 +33,7 @@ alias mtSwitch="cd $switchPath"
 alias mtOD="cd $notesOfficePath/Demo"
 alias mtSPA="cd /Users/zia.khalid/Documents/Root/GIT_REPO/TEST/SelfPracticeAndroid"
 alias mtJunk="cd $junkPath" 
+alias mtAndroidPlaygrond="cd $androidPlaygrondPath" 
 
 #Edit files
 alias editStandup="vim $notesOfficePath/StandUp"
@@ -46,6 +48,9 @@ alias editRoughNotes="vim $notesPath/RoughNotes"
 alias editSwitch="vim $switchPath/Switch"
 alias editLogFile="vim $logFilesPath"
 alias editImportantLinks="vim $notesOfficePath/ImportantLinks"
+alias editAndroidProgress="vim $androidPlaygrondPath/AndroidProgress"
+alias editAssignedTask="vim $androidPlaygrondPath/AssignedTask"
+alias editAdnanImportantCommands="vim $androidPlaygrondPath/ImportantCommand"
 
 
 #Show files
