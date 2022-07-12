@@ -14,8 +14,20 @@ set background=dark
 
 set nocompatible
 
+"up limit commands record, default is 20
+set history=200
+
 " Turn on syntax highlighting.
 syntax on
+" Remove highlighting after search
+"nnoremap <esc>:noh<CR><esc>
+nnoremap <C-f>ns :noh<CR>
+
+"Spellchecking
+set spell spelllang=en_us
+
+"No Spellchecking
+"set nospell
 
 " Disable the default Vim startup message.
 set shortmess+=I
